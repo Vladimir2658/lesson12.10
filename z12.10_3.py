@@ -88,5 +88,7 @@ print(lst)
 obj = Shape()
 obj.Save(lst)
 lst2 = obj.Load()
-print(lst2)
+print("-------------------")
+for line in lst2:
+    print(line, end="")
 
